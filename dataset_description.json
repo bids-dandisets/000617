@@ -1,0 +1,19 @@
+{
+    "Name": "Allen Institute Openscope - Sequence Learning Project",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Adaptive and coordinated behavior requires that an animal be able to make predictions about the near and even far future. This intuition that some neural computations should be \u2018predictive\u2019 in their character has a long history, starting with ideas about how the receptive field structure of retinal ganglion cells relate to the statistics of natural visual scenes. Ideas about predictive computation have been most influential in thinking about the function of the neocortex. Here, the relatively stereotyped local circuitry of the neocortex has long led to speculation that each local circuit might be carrying out a somewhat similar, fundamental computation on its specific inputs. In addition, the organization of sensory-motor pathways into hierarchies (e.g., V1, V2, V4, IT in the ventral visual stream) with stereotyped feedforward and feedback connections has motivated ideas about hierarchical predictive codes, where higher levels of the hierarchy send predictions down to the lower level that then compares its inputs against the predictions and only send the surprises up the hierarchy (such as in the work of Mumford, Rao & Ballard, and Friston). Despite the wide influence of ideas about predictive coding, there is relatively little experimental evidence that such computations occur in multiple cortical areas, perhaps serving as a \u2018canonical computation\u2019 of the neocortical microcircuit. Our experimental design is based on a Sequence Learning Experiment, in which head-fixed mice passively view sequences of three different natural movie clips (labeled \u2018A\u2019, \u2018B\u2019, \u2018C\u2019), each having a duration of 2 seconds. We begin with one recording session (day #0), where the movie clips are presented in random order along with a 2 second grey screen (labeled \u2018X\u2019). Each stimulus occurs a total of 525 times, allowing a thorough characterization of neural responses before any sequence learning has occurred. Next, there are 3 recording sessions where the three movie clips are presented in a repeating temporal sequence, ABCABC\u2026, for 500 times, in order to train the mouse\u2019s brain. This training allows the mouse to potentially use the identity of the current movie clip predict the next movie clip. In addition, each sequence training session includes a period of random-order presentation, in order to assess changes in neural tuning during sequence learning. Finally, our last session (day #4) had stimuli presented in random order, allowing us to test more thoroughly how responses changed due to sequence learning.\n\nOur design uses 2-photon microscopy with eight simultaneously recorded fields-of-view. The fields-of-view will include both layer 2/3 and layer 4 as well as from multiple cortical areas: V1 (VISp), LM (VISl), AM (VISam), and PM (VISpm). The experiment used the Cux2-CreERTS2:Camk2a-tTa; Ai93(TITL-GCaMP6f) mouse line, which has expression in excitatory neurons of both layer 4 and 2/3.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Berry, Michael"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
